@@ -1,5 +1,6 @@
 # Rip
 Made with love &lt;3 &lt;3
+Inspired from Salib Saddaf <3
 
 # Installation
 apt install git python2
